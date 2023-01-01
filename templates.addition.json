@@ -3,57 +3,27 @@
 [
     {
       "name": "Daily Planner",
-      "filename": "daily_planner",
+      "filename": "tom_daily_planner",
       "iconCode": "\ue9da",
-      "categories": [
-        "Life/organize",
-        "Custom"
-      ]
+      "categories": [ "Custom" ]
     },
-    {
+	{
       "name": "Weekly Planner",
-      "filename": "weekly_planner",
+      "filename": "tom_weekly_planner",
       "iconCode": "\ue997",
-      "categories": [
-        "Life/organize",
-        "Custom"
-      ]
+      "categories": [ "Custom" ]
     },
-    {
-      "name": "Journal",
-      "filename": "journal",
-      "iconCode": "\ue991",
-      "categories": [
-        "Life/organize",
-        "Custom"
-      ]
-    },
-    {
-      "name": "1:1 / Meeting Notes",
-      "filename": "meeting_notes",
+	{
+      "name": "Meeting Note",
+      "filename": "tom_meeting_note",
       "iconCode": "\ue9d8",
-      "categories": [
-        "Life/organize",
-        "Custom"
-      ]
+      "categories": [ "Custom" ]
     },
-    {
-      "name": "Smart Goals",
-      "filename": "goals",
-      "iconCode": "\ue98f",
-      "categories": [
-        "Life/organize",
-        "Custom"
-      ]
-    },
-    {
-      "name": "Good Time Journal",
-      "filename": "gt_journal",
-      "iconCode": "\ue9b2",
-      "categories": [
-        "Life/organize",
-        "Custom"
-      ]
+	{
+      "name": "Quarterly Planner",
+      "filename": "tom_q_plan",
+      "iconCode": "\ue9d8",
+      "categories": [ "Custom" ]
     }
 ]
 }

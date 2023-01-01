@@ -1,4 +1,5 @@
 .DS_Store
+.idea
 templates.json
 templates.merged.json
 
