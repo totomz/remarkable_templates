@@ -6,8 +6,24 @@ The templates are built using [NoTeTo](https://noteto.needleinthehay.de/) templa
 All templates are prefixed with `tom_` to avoid to overwrite existing/new templaates. 
 
 ## How to install the templates on Remarkable
+Create an SSH config to connect to the device:
 
-Please follow [this guide](https://remarkablewiki.com/tech/ssh) to setup the SSH access to your device. The install script uses the same config. Once you are done with the config test:
+Get the device SSH password:(see https://remarkable.guide/guide/access/ssh.html#installing-a-ssh-key-on-your-device)
+* On your device, open the `Menu` from the main page;
+* Select `Settings` -> `Help` -> `Copyright and licenses`
+* You'll find password and ip at the bottom of the page
+
+Create an SSh alias in `~/.ssh/config`
+```
+host rem
+    Hostname 192.168.10.112
+    User root
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+```
+
+
+The install script uses the alias `rem`. Once you are done with the config test:
 
 ```
 $ ssh rem
